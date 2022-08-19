@@ -1,0 +1,24 @@
+{
+  "name": "ssotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startaccounts": "npm start --prefix accounts",
+    "startclient1": "npm start --prefix client1",
+    "startclient2": "npm start --prefix client2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "nodemon": "^1.19.1",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
